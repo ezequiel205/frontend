@@ -11,11 +11,7 @@
 <h1 align="center">Bootcamp utilizando NodeJS + ReactJS </h1>
 
 <!-- Descrição do Projeto -->
-<p align = "center"> API densenvolvida na Semana NLW4 da Rocketseat </p>
-
-<h4 align="center"> 
-	🚧 Aplicação em desenvolvimento...🚧
-</h4>
+<p align = "center"> 🚧 Aplicação em desenvolvimento...🚧 </p>
 
 <!--
 ### Features
