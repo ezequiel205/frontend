@@ -2,6 +2,10 @@
   "name": "frontend",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.14.5",
@@ -9,9 +13,13 @@
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
     "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "style-loader": "^2.0.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   },

@@ -8,7 +8,7 @@ module.exports = {
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
-        port: 3333
+        port: 3000
     },
     module: {
         rules: [
@@ -17,6 +17,20 @@ module.exports = {
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
+                }
+            },
+            {
+                test: /\.css$/,
+                exclude: /node_modules/,
+                use: [
+                    { loader: 'style-loader'},
+                    { loader: 'css-loader'},
+                ]
+            },
+            {
+                test: /.*\.(gif|png|jpe?g)$/i,
+                use: {
+                    loader: 'file-loader',
                 }
             }
         ]

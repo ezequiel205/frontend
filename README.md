@@ -1,14 +1,14 @@
 
 <p id="Primeiro paragrafo"> 
 	
-<img src="https://img.shields.io/github/stars/ezequiel205/bootcamp" />
-<img src="https://img.shields.io/github/forks/ezequiel205/bootcamp" /> 
-<!-- <img src="https://img.shields.io/github/issues/ezequiel205/bootcamp" /> -->
+<img src="https://img.shields.io/github/stars/ezequiel205/backend" />
+<img src="https://img.shields.io/github/forks/ezequiel205/backend" /> 
+<!-- <img src="https://img.shields.io/github/issues/ezequiel205/backend" /> -->
 	
 </p>
 
 <!-- Nome do Projeto -->
-<h1 align="center">Bootcamp utilizando NodeJS + ReactJS </h1>
+<h1 align="center">Bootcamp - Parte 1 (FrontEnd)</h1>
 
 <!-- Descrição do Projeto -->
 <p align = "center"> 🚧 Aplicação em desenvolvimento...🚧 </p>
