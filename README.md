@@ -1,9 +1,9 @@
 
 <p id="Primeiro paragrafo"> 
 	
-<img src="https://img.shields.io/github/stars/ezequiel205/backend" />
-<img src="https://img.shields.io/github/forks/ezequiel205/backend" /> 
-<!-- <img src="https://img.shields.io/github/issues/ezequiel205/backend" /> -->
+<img src="https://img.shields.io/github/stars/ezequiel205/frontend" />
+<img src="https://img.shields.io/github/forks/ezequiel205/frontend" /> 
+<!-- <img src="https://img.shields.io/github/issues/ezequiel205/frontend" /> -->
 	
 </p>
 
