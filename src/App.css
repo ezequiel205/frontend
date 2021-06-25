@@ -7,7 +7,7 @@
 }
 
 body {
-    background: red;
+    background: rgba(255, 0, 0, 0.226);
     font: 14px;
-    color: royalblue
+    color: rgb(18, 18, 19)
 }

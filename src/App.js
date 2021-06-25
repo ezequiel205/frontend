@@ -26,12 +26,21 @@ function App() {
     // 2. Função para atualizarmos esse valor
 */
 
-function handleAddProject() {
+async function handleAddProject() {
 
     // ... Copia o projects
-    setProjects([...projects, `Novo Projeto ${Date.now()}`]);
+    // setProjects([...projects, `Novo Projeto ${Date.now()}`]);
+    // Método POST
+    const response = await api.post('projects', {
+        title: `Novo projeto ${Date.now()}`,
+        owner: "Ezequiel Almeida"
+    });
 
-    console.log(projects);
+    const project = response.data;
+
+    setProjects([...projects, project]);
+
+    // console.log(projects);
 }
 
     return (
